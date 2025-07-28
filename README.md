@@ -1,3 +1,4 @@
+
 # Practical-3-DAIOT
 TAKE TEMPERATURE READ FROM SENSOR
 
@@ -5,15 +6,18 @@ TAKE TEMPERATURE READ FROM SENSOR
 # Theory
 -The Temperature Sensor LM35 series are precision integrated-circuit temperature devices
 with an output voltage linearly proportional to the Centigrade temperature.
+
 -The LM35 device has an advantage over linear temperature sensors calibrated in Kelvin,
 as the user is not required to subtract a large constant voltage from the output to obtain
 convenient Centigrade scaling. The LM35 device does not require any external
 calibration or trimming to provide typical accuracies of ±¼°C at room temperature and
 ±¾°C over a full −55°C to 150°C temperature range.
+
 -DHT11/DHT22 Sensor
 The DHT11 and DHT22 are digital sensors used to measure temperature and humidity. The
 DHT22 is a more accurate and wider-ranging version of the DHT11. Both sensors provide a
 digital output, which can be read by a microcontroller like the Arduino.
+
 -Arduino
 The Arduino is a microcontroller platform used for interfacing with various electronic
 components. It processes sensor data and can control outputs based on sensor inputs.
@@ -57,10 +61,12 @@ Serial Monitor displaying temperature and humidity values.
 -Sensor Operation:
 The DHT sensor measures temperature and humidity and sends this data to the Arduino as a
 digital signal. The Arduino processes this signal and uses the DHT library to interpret the data.
+
 -Arduino Code Operation:
 The code initializes the sensor and reads temperature and humidity values every 2 seconds. It
 then prints these values to the Serial Monitor. If the sensor fails to read data, an error message is
 displayed.
+
 # Conclusion
 The lab successfully demonstrated how to interface a DHT11 or DHT22 sensor with an Arduino
 to read and display temperature values. Students learned to connect the sensor, install necessary
