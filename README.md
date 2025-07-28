@@ -1,9 +1,9 @@
 # Practical-3-DAIOT
 TAKE TEMPERATURE READ FROM SENSOR
 
- #Aim:- Write code to read temperature values from
+ # Aim:- Write code to read temperature values from
 the sensor.
-#Theory
+# Theory
 -The Temperature Sensor LM35 series are precision integrated-circuit temperature devices
 with an output voltage linearly proportional to the Centigrade temperature.
 -The LM35 device has an advantage over linear temperature sensors calibrated in Kelvin,
@@ -55,10 +55,10 @@ Insert an image showing the DHT11 or DHT22 sensor connected to the Arduino board
 Serial Monitor displaying temperature and humidity values.
 
 # Working
-Sensor Operation:
+-Sensor Operation:
 The DHT sensor measures temperature and humidity and sends this data to the Arduino as a
 digital signal. The Arduino processes this signal and uses the DHT library to interpret the data.
-Arduino Code Operation:
+-Arduino Code Operation:
 The code initializes the sensor and reads temperature and humidity values every 2 seconds. It
 then prints these values to the Serial Monitor. If the sensor fails to read data, an error message is
 displayed.
