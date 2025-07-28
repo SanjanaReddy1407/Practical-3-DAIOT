@@ -1,8 +1,7 @@
 # Practical-3-DAIOT
 TAKE TEMPERATURE READ FROM SENSOR
 
- # Aim:- Write code to read temperature values from
-the sensor.
+ # Aim:- Write code to read temperature values from the sensor.
 # Theory
 -The Temperature Sensor LM35 series are precision integrated-circuit temperature devices
 with an output voltage linearly proportional to the Centigrade temperature.
